@@ -21,6 +21,16 @@ page 50103 PageTest
                     Message(lcText000);
                 end;
             }
+            action(MessageTest2)
+            {
+                trigger OnAction()
+
+                var
+                    lcText001: TextConst ENU = 'Mensagem de teste - Segundo a Subir pro GitHub';
+                begin
+                    Message(lcText001);
+                end;
+            }
         }
     }
 }
