@@ -31,6 +31,18 @@ page 50103 PageTest
                     Message(lcText001);
                 end;
             }
+
+            action(MessaTest3)
+            {
+                trigger OnAction()
+
+                var
+                    lcText002: TextConst ENU = 'Mensagem de teste - Terceiro a Subir pro GitHub';
+                begin
+                    Message(lcText002, ' - COMMIT ALTERADO');
+                end;
+            }
+
         }
     }
 }
